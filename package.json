@@ -4,7 +4,7 @@
   "author": "zeal",
   "scripts": {
     "dev": "vuepress dev .",
-    "build": "vuepress build docs",
+    "build": "vuepress build .",
     "upcdn": "vuepress build . && node ./scripts/upcdn.js"
   },
   "devDependencies": {
