@@ -1,6 +1,6 @@
 module.exports = {
-  "title": "zealsay说你想说",
-  "description": "zealsay说你想说,是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
+  "title": "小黑子",
+  "description": "小黑子,是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
   "dest": "dist",
   "head": [
     [
@@ -65,13 +65,13 @@ module.exports = {
     },
     "friendLink": [
       {
-        "title": "作者博客",
+        "title": "zealsay博客",
         "desc": "zealsay说你想说",
         "logo": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
         "link": "https://blog.zealsay.com"
       },
       {
-        "title": "另一个博客",
+        "title": "推荐博客",
         "desc": "vuepress_blog",
         "logo": "https://pan.zealsay.com/blog/logo.png",
         "link": "https://www.zealsay.com"
@@ -101,22 +101,22 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "李白",
-    "authorAvatar": "https://pan.zealsay.com/avatar/20200606105310570000000.jpg",
+    "author": "世博",
+    "authorAvatar": "https://p3-passport.byteimg.com/img/user-avatar/27381676718b5db3678b2dcb597ff883~180x180.awebp",
     "record": "你的备案号 ", //icp备案
     "startYear": "2020",
-    "info": "一名追求技术喜欢安静的程序猿，目前在北京某互联网公司担任高级后台java开发。",
+    "info": "一名追求技术喜欢安静的程序猿，目前在上海某互联网公司担任前端开发。",
     "socials":{
-      "github" : "https://github.com/GodLikeZeal", //github
+      "github" : false,//"https://github.com/GodLikeZeal", //github
       "gitlub" : false, //gitlub
-      "gitee" : "https://gitee.com/GodLikeZeal", //gitee
-      "jianshu" : "https://www.jianshu.com/u/e2d051b6d2e9", //简书
-      "zhihu" : "https://www.zhihu.com/people/qian-ge-diao-63", //知乎
+      "gitee" : false, //gitee
+      "jianshu" : false, //简书
+      "zhihu" : false, //知乎
       "toutiao" : false, //知乎
-      "juejin": "https://juejin.im/user/2796746683716990", //掘金
-      "segmentfault" : "https://segmentfault.com/u/zeal_5eecb699bdb08", //思否
+      "juejin": false, //掘金
+      "segmentfault" : false, //思否
       "csdn" : false, //CSDN
-      "wechat" : "你的微信", //微信
+      "wechat" : "BO554528196", //微信
       "qq" : "你的QQ" //QQ
     },
     "mottos": [{
