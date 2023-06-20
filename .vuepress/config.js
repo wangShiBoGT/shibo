@@ -18,13 +18,13 @@ module.exports = {
       }
     ],
     ['script', {}, `
-          var _hmt = _hmt || [];
-          (function() {
-            var hm = document.createElement("script");
-            hm.src = "https://hm.baidu.com/hm.js?b0aae218897fa9d8a9f76e9a77e0b3c6";
-            var s = document.getElementsByTagName("script")[0]; 
-            s.parentNode.insertBefore(hm, s);
-          })();
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?8898b78d4744983d0771303845947fa6";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
         `] //百度统计
   ],
   "locales": {
@@ -90,20 +90,23 @@ module.exports = {
       }
     ],
     "valineConfig": {
-      "appId": "xxx",// your appId
-      "appKey": "xxx", // your appKey
+      "appId": "4HkIsBE5McVSYWPxwJFkMCxc-gzGzoHsz",// your appId
+      "appKey": "hwdAubQyuGnwkk2n64gTF8oV", // your appKey
       "avatar": "", //
+      placeholder:"坦途同学需要你的评论",
       "enableQQ": true, //启用昵称框自动获取QQ昵称和QQ头像
       "requiredFields": ['nick', 'mail'], //设置必填项
+      recordIP:true,
+      visitor:true,
     },
-    "logo": "/logo.png",
+    "logo": "/favicon.ico",
     // "huawei": true, //首页出现华为文案
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
     "author": "坦途",
     "authorAvatar": "https://p3-passport.byteimg.com/img/user-avatar/27381676718b5db3678b2dcb597ff883~180x180.awebp",
-    "record": "你的备案号 ", //icp备案
+    // "record": "你的备案号 ", //icp备案
     "startYear": "2020",
     "info": "一名追求技术喜欢安静的程序猿，目前在上海某互联网公司担任前端开发。",
     "socials":{
@@ -117,7 +120,7 @@ module.exports = {
       "segmentfault" : false, //思否
       "csdn" : false, //CSDN
       "wechat" : "BO554528196", //微信
-      "qq" : "你的QQ" //QQ
+      "qq" : "734696199" //QQ
     },
     "mottos": [{
       "zh": "愿你保持初心和善良,笑里尽是温暖与坦荡。",
@@ -145,7 +148,11 @@ module.exports = {
       {
         "zh": "人生没有后悔，我们只能尽力去不让自己后悔。",
         "en": "Life without regret, we can only do our best to not to regret."
-      }
+      },
+      {
+        "zh": "人生来来往往，来日并不方长。",
+        "en": "Life comes and goes, but the future is not long."
+        },
     ],
     "covers": [
       'https://pan.zealsay.com/zealsay/cover/7.jpg',
