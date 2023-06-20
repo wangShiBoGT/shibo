@@ -1,13 +1,13 @@
 module.exports = {
-  "title": "小黑子",
-  "description": "小黑子,是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
+  "title": "坦途的博客",
+  "description": "坦途,是一个关注于互联网、IT技术经验分享的个人独立博客。专注于IT行业最前沿的技术。致力成为互联网上最个性、最极客、具传播力的个人独立博客。",
   "dest": "dist",
   "head": [
     [
       "link",
       {
         "rel": "icon",
-        "href": "https://pan.zealsay.com/blog/favicon.ico"
+        "href": "/favicon.ico"
       }
     ],
     [
@@ -101,7 +101,7 @@ module.exports = {
     "search": true,
     "searchMaxSuggestions": 10,
     "lastUpdated": "Last Updated",
-    "author": "世博",
+    "author": "坦途",
     "authorAvatar": "https://p3-passport.byteimg.com/img/user-avatar/27381676718b5db3678b2dcb597ff883~180x180.awebp",
     "record": "你的备案号 ", //icp备案
     "startYear": "2020",
